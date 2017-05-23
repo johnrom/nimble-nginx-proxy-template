@@ -1,2 +1,3 @@
 # nimble-nginx-proxy
-A Nimble Nginx Proxy
+
+An nginx proxy, for [Nimble](https://github.com/johnrom/nimble)
