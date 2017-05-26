@@ -5,3 +5,5 @@ front:
   extends:
     file: COMMON
     service: front
+  volumes:
+        - SITEROOT/conf/custom.conf:/etc/nginx/conf.d/custom.conf

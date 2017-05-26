@@ -3,7 +3,6 @@ front:
   image: jwilder/nginx-proxy
   volumes:
     - /var/run/docker.sock:/tmp/docker.sock
-    - SITEROOT/_conf/custom.conf:/etc/nginx/conf.d/custom.conf
     - NIMBLE/_conf/certs:/etc/nginx/certs
   ports:
     - "80:80"
